@@ -4,7 +4,8 @@
   "scripts": {
     "start": "meteor run",
     "test": "mocha ./tests --compilers js:babel-register",
-    "test-watch": "npm test -- -w"
+    "test-watch": "npm test -- -w",
+    "test-stryker": "stryker run"
   },
   "dependencies": {
     "meteor-node-stubs": "^0.4.1",
