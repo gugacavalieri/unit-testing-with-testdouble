@@ -19,6 +19,13 @@
     "babel-register": "^6.9.0",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
+    "stryker": "^0.24.2",
+    "stryker-api": "^0.17.3",
+    "stryker-babel-transpiler": "^0.5.3",
+    "stryker-html-reporter": "^0.14.3",
+    "stryker-javascript-mutator": "^0.7.3",
+    "stryker-mocha-framework": "^0.10.3",
+    "stryker-mocha-runner": "^0.12.3",
     "testdouble": "^3.8.1"
   },
   "version": "1.0.0",
