@@ -1,6 +1,24 @@
-# Meteor Testing Best Practices
 
-TODO: add other readme content
+[![Build Status](https://travis-ci.org/gugacavalieri/unit-testing-with-testdouble.svg?branch=master)](https://travis-ci.org/gugacavalieri/unit-testing-with-testdouble)
+[![Mutation Score](https://badge.stryker-mutator.io/github.com/gugacavalieri/unit-testing-with-testdouble/master)](https://badge.stryker-mutator.io/github.com/gugacavalieri/unit-testing-with-testdouble/master)
+
+# Integrating [Stryker](https://stryker-mutator.io) with [Meteor](https://www.meteor.com/)
+
+## Requirements
+
+* We have to mock the Meteor Framework in our unit tests using [testdouble.js](https://github.com/testdouble/testdouble.js)
+* ([you can read more in here](http://www.petecorey.com/blog/2016/05/02/meteor-unit-testing-with-testdoublejs/?from=east5th.co))
+* We have to use Babel along with Stryker to transpile our code (see stryker.conf.js)
+
+## How to Run Tests
+
+Unit Tests:
+
+    npm test
+
+Mutation Tests:
+
+    npm test-stryker
 
 
 ## .babelrc File
